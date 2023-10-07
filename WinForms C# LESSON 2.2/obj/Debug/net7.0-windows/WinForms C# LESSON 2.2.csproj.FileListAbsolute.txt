@@ -1,0 +1,18 @@
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\bin\Debug\net7.0-windows\WinForms C# LESSON 2.2.exe
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\bin\Debug\net7.0-windows\WinForms C# LESSON 2.2.deps.json
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\bin\Debug\net7.0-windows\WinForms C# LESSON 2.2.runtimeconfig.json
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\bin\Debug\net7.0-windows\WinForms C# LESSON 2.2.dll
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\bin\Debug\net7.0-windows\WinForms C# LESSON 2.2.pdb
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.csproj.AssemblyReference.cache
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms_C__LESSON_2._2.Form1.resources
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.csproj.GenerateResource.cache
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.AssemblyInfoInputs.cache
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.AssemblyInfo.cs
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.csproj.CoreCompileInputs.cache
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.dll
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\refint\WinForms C# LESSON 2.2.dll
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.pdb
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms C# LESSON 2.2.genruntimeconfig.cache
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\ref\WinForms C# LESSON 2.2.dll
+C:\Users\AzComp\source\repos\WinForms C# LESSON 2.2\WinForms C# LESSON 2.2\obj\Debug\net7.0-windows\WinForms_C__LESSON_2._2.Properties.Resources.resources
