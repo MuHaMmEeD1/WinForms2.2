@@ -14,6 +14,7 @@ namespace WinForms_C__LESSON_2._2
         public bool devamVur = false;
         public bool devamTopla = false;
         public bool devamCix = false;
+        public bool ilk = false;
 
         // Cannot divide by zero
 
@@ -43,7 +44,7 @@ namespace WinForms_C__LESSON_2._2
             devamCix = false;
             devamVur = false;
             devamTopla = false;
-
+            ilk = false;
         }
 
         private void label8_Click(object sender, EventArgs e)
@@ -59,7 +60,7 @@ namespace WinForms_C__LESSON_2._2
         private void button5_Click_1(object sender, EventArgs e)
         {
 
-
+            ilk = false;
             if (EsasLebleLabel2.Text == "0") { }
             else
             {
@@ -89,69 +90,78 @@ namespace WinForms_C__LESSON_2._2
 
         private void _1_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "1"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "1"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "1"; }
-
+            ilk = false;
         }
 
         private void _2_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "2"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "2"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "2"; }
+            ilk = false;
         }
 
 
         private void _3_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "3"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "3"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "3"; }
+            ilk = false;
         }
 
         private void _4_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "4"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "4"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "4"; }
+            ilk = false;
         }
 
         private void _5_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "5"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "5"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "5"; }
+            ilk = false;
         }
 
         private void _6_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "6"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "6"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "6"; }
+            ilk = false;
         }
 
         private void _7_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "7"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "7"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "7"; }
+            ilk = false;
         }
 
         private void _8_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "8"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "8"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "8"; }
+            ilk = false;
         }
 
         private void _9_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text = "9"; eded1Yoxla = false; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) || ilk) { EsasLebleLabel2.Text = "9"; eded1Yoxla = false; }
             else { EsasLebleLabel2.Text += "9"; }
+            ilk = false;
         }
 
         private void _0_Click(object sender, EventArgs e)
         {
-            if (EsasLebleLabel2.Text != "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla))) { EsasLebleLabel2.Text += "0"; }
-            else { EsasLebleLabel2.Text = "0"; }
+            if ((EsasLebleLabel2.Text == "0" && EsasLebleLabel2.Text != "Cannot divide by zero" || (eded1Yoxla && (!devamBol || !devamVur || !devamCix || !devamTopla)) || ilk)) { EsasLebleLabel2.Text = "0"; }
+            else { EsasLebleLabel2.Text += "0"; }
+            ilk = false;
         }
 
         private void bol_Click(object sender, EventArgs e)
         {
-
+            ilk = true;
             if (devamBol)
             {
 
@@ -159,12 +169,13 @@ namespace WinForms_C__LESSON_2._2
 
                 if (eded2 != 0)
                 {
-                    eded1 /= eded2;
+                    
 
-                    label11.Text = $" {bol.Text} {eded1} ";
+                    label11.Text = $"{eded1} {bol.Text} ";
+                    eded1 /= eded2;
                     EsasLebleLabel2.Text = $"{eded1}";
                 }
-                else { label11.Text = $" = {eded1} {bol.Text} {eded1} "; EsasLebleLabel2.Text = "Cannot divide by zero"; }
+                else { label11.Text = $" = {eded1} {bol.Text} {eded2} "; EsasLebleLabel2.Text = "Cannot divide by zero"; }
             }
             else
             {
@@ -177,23 +188,23 @@ namespace WinForms_C__LESSON_2._2
                 devamCix = false;
 
                 eded1 = double.Parse(EsasLebleLabel2.Text);
-                label11.Text = $" {bol.Text} {eded1} ";
-
+                label11.Text = $"{eded1} {bol.Text} ";
 
             }
-
         }
 
         private void vur_Click(object sender, EventArgs e)
         {
+            ilk = true;
             if (devamVur)
             {
 
                 eded2 = double.Parse(EsasLebleLabel2.Text);
 
-                eded1 *= eded2;
+                
 
-                label11.Text = $" {vur.Text} {eded1} ";
+                label11.Text = $"{eded1} {vur.Text} ";
+                eded1 *= eded2;
                 EsasLebleLabel2.Text = $"{eded1}";
 
 
@@ -209,7 +220,7 @@ namespace WinForms_C__LESSON_2._2
                 devamCix = false;
 
                 eded1 = double.Parse(EsasLebleLabel2.Text);
-                label11.Text = $" {vur.Text} {eded1} ";
+                label11.Text = $"{eded1} {vur.Text} ";
 
 
             }
@@ -217,15 +228,15 @@ namespace WinForms_C__LESSON_2._2
 
         private void cix_Click(object sender, EventArgs e)
         {
+            ilk = true;
             if (devamCix)
             {
 
                 eded2 = double.Parse(EsasLebleLabel2.Text);
+                
 
+                label11.Text = $"{eded1} {cix.Text} ";
                 eded1 -= eded2;
-
-                label11.Text = $" {cix.Text} {eded1} ";
-
                 EsasLebleLabel2.Text = $"{eded1}";
 
 
@@ -241,7 +252,7 @@ namespace WinForms_C__LESSON_2._2
                 devamCix = true;
 
                 eded1 = double.Parse(EsasLebleLabel2.Text);
-                label11.Text = $" {cix.Text} {eded1} ";
+                label11.Text = $"{eded1} {cix.Text} ";
 
 
             }
@@ -249,15 +260,16 @@ namespace WinForms_C__LESSON_2._2
 
         private void topla_Click(object sender, EventArgs e)
         {
+            ilk = true;
             if (devamTopla)
             {
 
                 eded2 = double.Parse(EsasLebleLabel2.Text);
 
+               
+
+                label11.Text = $"{eded1} {topla.Text} ";
                 eded1 += eded2;
-
-                label11.Text = $" {topla.Text} {eded1} ";
-
                 EsasLebleLabel2.Text = $"{eded1}";
 
 
@@ -273,7 +285,7 @@ namespace WinForms_C__LESSON_2._2
                 devamCix = false;
 
                 eded1 = double.Parse(EsasLebleLabel2.Text);
-                label11.Text = $" {topla.Text} {eded1} ";
+                label11.Text = $"{eded1} {topla.Text} ";
 
 
             }
@@ -283,16 +295,17 @@ namespace WinForms_C__LESSON_2._2
         {
 
 
-
+            ilk = false;
             if (devamBol)
             {
                 eded2 = double.Parse(EsasLebleLabel2.Text);
 
                 if (eded2 != 0)
                 {
-                    eded1 /= eded2;
+                    
 
-                    label11.Text = $" {bol.Text} {eded1} ";
+                    label11.Text = $"{eded1} {bol.Text} {eded2} = ";
+                    eded1 /= eded2;
                     EsasLebleLabel2.Text = $"{eded1}";
                 }
                 else { label11.Text = $" = {eded1} {bol.Text} {eded1} "; EsasLebleLabel2.Text = "Cannot divide by zero"; }
@@ -305,9 +318,8 @@ namespace WinForms_C__LESSON_2._2
 
                 eded2 = double.Parse(EsasLebleLabel2.Text);
 
+                label11.Text = $"{eded1} {vur.Text} {eded2} = ";
                 eded1 *= eded2;
-
-                label11.Text = $" {vur.Text} {eded1} ";
                 EsasLebleLabel2.Text = $"{eded1}";
 
                 devamVur = false;
@@ -317,9 +329,8 @@ namespace WinForms_C__LESSON_2._2
 
                 eded2 = double.Parse(EsasLebleLabel2.Text);
 
+                label11.Text = $"{eded1} {topla.Text} {eded2} = ";
                 eded1 += eded2;
-
-                label11.Text = $" {topla.Text} {eded1} ";
 
                 EsasLebleLabel2.Text = $"{eded1}";
 
@@ -330,9 +341,9 @@ namespace WinForms_C__LESSON_2._2
             {
                 eded2 = double.Parse(EsasLebleLabel2.Text);
 
-                eded1 -= eded2;
 
-                label11.Text = $" {cix.Text} {eded1} ";
+                label11.Text = $"{eded1} {cix.Text} {eded2} = ";
+                eded1 -= eded2;
 
                 EsasLebleLabel2.Text = $"{eded1}";
 
@@ -346,6 +357,7 @@ namespace WinForms_C__LESSON_2._2
 
         private void button23_Click(object sender, EventArgs e)
         {
+            ilk = false;
 
             bool verguleYoxla = true;
 
