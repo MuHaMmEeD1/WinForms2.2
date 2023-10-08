@@ -1,4 +1,4 @@
-﻿using WinForms_C__LESSON_2._2.Properties;
+using WinForms_C__LESSON_2._2.Properties;
 
 namespace WinForms_C__LESSON_2._2
 {
@@ -84,10 +84,11 @@ namespace WinForms_C__LESSON_2._2
             EsasLebleLabel2.Font = new Font("Yu Gothic UI Semibold", 55.2F, FontStyle.Bold, GraphicsUnit.Point);
             EsasLebleLabel2.Location = new Point(12, 109);
             EsasLebleLabel2.Name = "EsasLebleLabel2";
-            EsasLebleLabel2.RightToLeft = RightToLeft.Yes;
+            EsasLebleLabel2.RightToLeft = RightToLeft.No;
             EsasLebleLabel2.Size = new Size(605, 136);
             EsasLebleLabel2.TabIndex = 1;
             EsasLebleLabel2.Text = "0";
+            EsasLebleLabel2.TextAlign = ContentAlignment.TopRight;
             // 
             // label2
             // 
@@ -473,9 +474,10 @@ namespace WinForms_C__LESSON_2._2
             label11.ForeColor = SystemColors.WindowFrame;
             label11.Location = new Point(12, 80);
             label11.Name = "label11";
-            label11.RightToLeft = RightToLeft.Yes;
+            label11.RightToLeft = RightToLeft.No;
             label11.Size = new Size(584, 29);
             label11.TabIndex = 35;
+            label11.TextAlign = ContentAlignment.TopRight;
             // 
             // Form1
             // 
